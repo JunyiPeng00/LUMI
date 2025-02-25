@@ -16,4 +16,4 @@ sbatch -J "Example_Submit" \
   --array "1-1" \
   -o "${my_folder}/output_%x_%j_%a.txt" \
   -e "${my_folder}/error_%x_%j_%a.txt" \
-    submit_vox2.sh
+    submit.sh
